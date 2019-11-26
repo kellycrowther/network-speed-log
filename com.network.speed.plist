@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.network.speed</string>
+    <key>Program</key>
+    <string>/Users/kellycrowther/kelly-repos/network-speed-log/index.sh</string>
+    <key>StandardErrorPath</key>
+    <string>/var/log/network-speed.log</string>
+    <key>StandardOutPath</key>
+    <string>/var/log/network-speed.log</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>WatchPaths</key>
+    <array>
+      <string>/etc/resolv.conf</string>
+      <string>/var/run/resolv.conf</string>
+      <string>/private/var/run/resolv.conf</string>
+    </array>
+</dict>
+</plist>
